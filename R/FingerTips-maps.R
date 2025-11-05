@@ -100,7 +100,6 @@ for (ft_id_i in ft_ids) {
   
   save_path = file.path(
     "output",
-    "FingerTips",
     ft_indicators$Theme[ft_indicators$IndicatorID == ft_id_i],
     paste0(
       ft_indicators$IndicatorShortName[ft_indicators$IndicatorID == ft_id_i],
